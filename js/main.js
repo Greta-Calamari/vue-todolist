@@ -78,7 +78,7 @@ const toodooList = new Vue({
                 check:false,
                 nomeIngrediente:this.nuovoIngrediente,
             }
-            this.tiramisu.push(ingrediente)
+            this.bambolaVodoo.push(ingrediente)
             this.nuovoIngrediente = '';
 
 
