@@ -18,9 +18,9 @@
     <div id="lista">
         <div class="container">
 
-            <h1 class="text-center stacco">Come fare una bambola Voodoo <i class="fa-solid fa-skull-crossbones"></i></h1>
+            <h1 class="text-center stacco">Ingredienti per fare una bambola Voodoo <i class="fa-solid fa-skull-crossbones"></i></h1>
             <ul>
-                <li v-if="bambolaVodoo.length === 0">Mancano gli ingredienti!</li>
+                <li v-if="bambolaVodoo.length === 0">Ehi ti mancano gli ingredienti!</li>
                 <li  class="cursor" :class="{'text-decoration-line-through':ingrediente.check}
                 " v-for="(ingrediente,index) in bambolaVodoo" :key="index">
                 <span @click="ingrediente.check = !ingrediente.check">{{ingrediente.nomeIngrediente}} </span>
